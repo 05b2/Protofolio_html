@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bertil Jovita JP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="head">
+        <div class="header">
+            <div>
+                <h1>Bertil Jovita JP</h1>
+                <p>MERN Developer</p>
+            </div>
+            <div class="nav">
+                <nav>
+                    <a href="#me" >Me</a> |
+                    <a href="#edu" >Edu</a> |
+                    <a href="#skills" >Skills</a> |
+                    <a href="#projects">Projects</a> |
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <main>
+        <section id="me">
+            <h2>About Me</h2>
+            <div class="aboutme">
+                
+                <div class="aboutmep">
+                    <p>I'm an Final year student from anna univ nagercoil.
+                        I'm interested on Artificial Intelligence and designing.
+                        I have knowlege on DataScience.Would like to explore more</p>
+                </div>
+                <div class="img">
+                    <img src="2dgurl.jpeg" alt="bertil" width="190" height="150">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="edu"> 
+            <div class="edu">
+                <div class="Education">
+                    <h2>Education</h2>
+                    <h3>St.Joseph Convent Hr Sec School|CGPA:80%</h3></div>
+                <div class="univ">
+                    <h3>B.E Computer Science and Engineering|Anna University Nagercoil|CGPA:8.1</h3>
+                </div>
+            </div>
+        </section><hr>
+        <section id="skills"> 
+            <h2>Skill</h2> 
+            <div class="skill">
+                <h3><img src="htmllogo.jpeg" alt="html" width="10" height="10">Html</h3>
+                <h3><img src="csslogo.jpeg" alt="html" width="10" height="10">Css</h3>
+                <h3><img src="jslogo.png" alt="html" width="10" height="10">Javascript</h3>
+                <h3><img src="flasklogo.png" alt="html" width="10" height="10">Flask</h3>
+                <h3><img src="sqllogo.png" alt="html" width="10" height="10">SQL</h3>
+            </div>
+        </section>
+        <hr>
+
+        <section id="projects">
+            <div class ="projects">
+            <h2>Project</h2>
+            <article>
+                <h2>Rainwater harvesting</h2>
+                <p>This project...</p>
+            </article>
+            <article>
+                <h2>BookMyShow Clone</h2>
+                <p>helped me ..</p>
+            </article>
+            </div>   
+        </section>
+        <hr>
+
+        <section id="contact">
+            <div class="contact">
+                <h2>Contact</h2>
+                <h4>Phone no:9486178100</h4>
+                <h4>Mail Id:bertiljovita@gmail.com</h4>
+                <a href="">Github</a> |
+                <a href="">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>This page was developed by bert</p>
+        <p>All right reserved@2025</p>
+        <a href="#head">Back to Top</a>
+    </footer>
+     
+</body>
+</html>

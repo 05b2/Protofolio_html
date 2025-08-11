@@ -1,0 +1,181 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #faf3e0 ;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+    background: linear-gradient(90deg, #2b2d42, #1c1e33);
+    color: white;
+    padding: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 2px; /* adds spacing between letters */
+    color: #e67e22;
+}
+h2{
+    color: #e67e22;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar nav a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #9f380c;
+}
+
+/* ===== Sections ===== */
+.section {
+    max-width: 1200px;  /* keeps content from stretching too wide */
+    margin: 0 auto;     /* centers it horizontally */
+    padding: 2rem;
+}
+
+
+.split {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.split.reverse {
+    flex-direction: row-reverse;
+}
+
+.text {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ef233c;
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+/* ===== Skills ===== */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    flex: 1 1 100px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center; /* centers image and text vertically */
+    gap: 0.5rem;         /* space between logo and text */
+    justify-content: center; /* optional: center the whole item */
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+.skill-item img {
+    width: 24px;           /* size of logo */
+    height: 24px;
+    object-fit: contain;   /* keeps logo proportions */
+    border-radius: 5px;    /* optional: rounded corners */
+    margin-bottom: 0.5rem; /* space between image and text */
+    transition: transform 0.3s ease;
+}
+
+.skill-item img:hover {
+    transform: scale(1.1); /* hover zoom effect */
+}
+
+
+/* ===== Projects ===== */
+.project-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #1c1e33;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer nav a {
+    color: #f8f9fa;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #ef233c;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .split, .split.reverse {
+        flex-direction: column;
+    }
+}
